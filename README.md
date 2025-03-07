@@ -1,4 +1,8 @@
 ### Hugo 基礎安裝步驟
+若無法使用 winget install Hugo.Hugo.Extended 則採取手動安裝
+- [hugo_extended_0.145.0_windows-amd64.zip](https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_windows-amd64.zip)
+- 將 hugo.exe 複製到 C:\User\User 目錄下
+
 ```
 winget install Hugo.Hugo.Extended
 winget install -e --id Git.Git
