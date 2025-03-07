@@ -35,7 +35,7 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --dept
 hugo new site web
 cd web
 git init
-git submodule add https://github.com/zeon-studio/hugoplate themes/hugoplate
+git submodule add https://github.com/zeon-studio/hugoplate .
 npm run project-setup
 npm install
 npm run dev
