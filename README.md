@@ -4,11 +4,12 @@
 - 將 hugo.exe 複製到 C:\Users\user 目錄下
 - 建議使用 VSCode 終端機功能，執行下列指令
 
-以下使用 PowerShello 管理員功能執行
+以下使用 PowerShell 管理員功能執行
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
+- 建議使用 VSCode 搭配 Git Bash
 ```
 winget install Hugo.Hugo.Extended
 winget install -e --id Git.Git
