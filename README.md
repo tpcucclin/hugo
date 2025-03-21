@@ -3,6 +3,12 @@
 - [hugo_extended_0.145.0_windows-amd64.zip](https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_windows-amd64.zip)
 - 將 hugo.exe 複製到 C:\Users\user 目錄下
 - 建議使用 VSCode 終端機功能，執行下列指令
+
+以下使用 PowerShello 管理員功能執行
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
 ```
 winget install Hugo.Hugo.Extended
 winget install -e --id Git.Git
@@ -28,6 +34,7 @@ cd web
 git init
 git submodule add https://github.com/zeon-studio/hugoplate hugoplate
 cd hugoplate
+
 npm run project-setup
 npm install
 npm run dev
